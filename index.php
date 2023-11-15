@@ -17,7 +17,7 @@ $router->get('/', function (Request $request, Response $response) {
 });
 
 $router->get('/meet', function (Request $request, Response $response) {
-    $name = $request->get('display_name');
+    $name = $_GET['display_name'] ?? '';
     $id = 'umrohin-meet-example';
 
     ob_start();
