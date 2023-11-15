@@ -1,0 +1,16 @@
+{
+    "name": "pinjammodal/jitsi",
+    "autoload": {
+        "psr-4": {
+            "Pinjammodal\\Jitsi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roger"
+        }
+    ],
+    "require": {
+        "izniburak/router": "^2.5"
+    }
+}
