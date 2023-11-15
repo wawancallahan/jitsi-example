@@ -17,10 +17,10 @@ $router->get('/', function (Request $request, Response $response) {
 });
 
 $router->get('/meet', function (Request $request, Response $response) {
-    ob_start();
-
-    $id = 'umrohin-meet-example';
     $name = $request->get('display_name');
+    $id = 'umrohin-meet-example';
+
+    ob_start();
 
     extract([
         'name' => $name,
